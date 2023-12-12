@@ -2,16 +2,16 @@
 import pandas as pd
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.feature_selection import f_classif
 from sklearn.feature_selection import mutual_info_classif
 
 
-data = pd.read_csv("./datasetPreprocesado/lymph.csv")
+data = pd.read_csv("./dataset/diabetes.csv")
 X = data.drop('class', axis=1)
 y = data['class']
 
-
-selector = SelectKBest(score_func=chi2, k=2)
+selector = SelectKBest(score_func=mutual_info_classif, k=2)
 
 X_new = selector.fit_transform(X, y)
 
