@@ -26,7 +26,7 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="F:\Informatica\tercero\practicas 2\datasetPreprocesado\lymph.csv"/>
+                    <entry key="path" type="xstring" value="G:\informatica\preprocesamiento\datasetPreprocesado\car.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -88,6 +88,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="11571d63-1cc1-4a99-9941-ddd50016fa87"/>
+        <entry key="file_store_id" type="xstring" value="65b0183b-799e-4d31-90aa-b339539fb45f"/>
     </config>
 </config>
